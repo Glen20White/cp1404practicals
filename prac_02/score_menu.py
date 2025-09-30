@@ -1,3 +1,7 @@
+"""
+CP1404/CP5632 - Practical 2
+Program for score with a menu
+"""
 def main():
     MENU = "(G)et a valid score (must be 0-100 inclusive)\n(P)rint result\n(S)how stars\n(Q)uit"
     score = None

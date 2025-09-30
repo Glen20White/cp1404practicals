@@ -1,3 +1,7 @@
+"""
+CP1404/CP5632 - Practical 2
+Program for password censoring
+"""
 def main():
     minimum_length = 6
     password = get_password(minimum_length)

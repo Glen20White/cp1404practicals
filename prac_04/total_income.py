@@ -1,6 +1,7 @@
 """
 CP1404/CP5632 Practical
-Starter code for cumulative total income program
+Question 2
+Cumulative total income program
 """
 
 

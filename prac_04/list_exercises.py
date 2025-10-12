@@ -1,9 +1,10 @@
 """
 CP1404/CP5632 Practical
+Question 4
 Basic list operations
 """
 
-""" number stuff """
+""" Number stuff """
 print("Please enter 5 numbers")
 numbers = []
 for i in range(5):
@@ -21,7 +22,7 @@ print("The largest number is", max(numbers))
 # average
 print("The average of the numbers is", sum(numbers) / len(numbers))
 
-""" username checker """
+""" Username checker """
 usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45', 'BaseInterpreterInterface', 'BaseStdIn',
              'Command', 'ExecState', 'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob']
 username = input("Please enter your username: ")

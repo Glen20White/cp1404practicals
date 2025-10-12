@@ -1,6 +1,7 @@
 """
 CP1404/CP5632 - Practical 4
 Question 1
+Lists warmup
 """
 
 numbers = [3, 1, 4, 1, 5, 9, 2]

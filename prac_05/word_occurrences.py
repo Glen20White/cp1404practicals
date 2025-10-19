@@ -1,6 +1,6 @@
 """
 CP1404/CP5632 Practical 5
-Question 2
+Question 3
 Word Occurrences
 Estimate: 15 minutes
 Actual:   15 minutes

@@ -1,6 +1,6 @@
 """
 Creating a new programming language class.
-Estimated time: 30 hour
+Estimated time: 30 minutes
 Actual Completion time: 20 minutes
 """
 

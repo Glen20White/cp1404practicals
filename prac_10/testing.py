@@ -49,11 +49,15 @@ def run_tests():
     car = Car()
     assert car.fuel == 0
 
+    # #Test phrase to sentence
+    # assert phrase_to_sentence('hello') == 'Hello.'
+    # assert phrase_to_sentence('It is an ex parrot.') == 'It is an ex parrot.'
+    # assert phrase_to_sentence('another phrase') == 'Another phrase.'
 
-run_tests()
+
 
 # (PyCharm may see your >>> doctest comments and run doctests anyway.)
-doctest.testmod()
+
 
 # (Don't change the tests, change the function!)
 
@@ -66,3 +70,23 @@ doctest.testmod()
 # and one more that you decide is a useful test.
 # Run your doctests and watch the tests fail.
 # Then write the body of the function so that the tests pass.
+def phrase_to_sentence(phrase):
+    """Convert a phrase to sentence, starting with a capital letter and ending with a .
+    >>> phrase_to_sentence('hello')
+    'Hello.'
+    >>> phrase_to_sentence('It is an ex parrot.')
+    'It is an ex parrot.'
+    >>> phrase_to_sentence('another phrase')
+    'Another phrase.'
+    """
+
+    formatted_phrase = phrase.capitalize()
+    if formatted_phrase[-1] != '.':
+        formatted_phrase += '.'
+    return formatted_phrase
+
+
+
+run_tests()
+
+doctest.testmod()
